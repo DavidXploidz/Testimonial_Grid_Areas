@@ -92,6 +92,24 @@ input, textarea, button, select{
     border-radius: 7px;
     grid-area: daniel;
 }
+.testimoniales__contenedor{
+    position: relative;
+    z-index: 1;
+}
+.testimoniales__bg{
+    position: absolute;
+    top: -90px;
+    right: 0;
+    z-index: -1;
+}
+@media (min-width: 768px){ 
+    .testimoniales__bg{
+        position: absolute;
+        top: -90px;
+        right: 60px;
+        z-index: -1;
+    }
+}
 .testimoniales__card--gray{
     background-color: var(--VeryDarkGrayishBlue);
     grid-area: jonathan;
