@@ -115,6 +115,12 @@ input, textarea, button, select{
     width: 40px;
     border: 2px solid var(--White);
 }
+.testimoniales__img--violet{
+    border: 2px solid var(--ModerateViolet);
+}
+.testimoniales__img--violetSaturate{
+    border: 2px solid hsl(263.1, 89.4%, 70.4%);
+}
 .testimoniales__name{
     color: var(--White);
     font-weight: 500;
